@@ -19,6 +19,6 @@ Select COUNT(*) FROM films
 SELECT Genre, AVG(score) FROM films GROUP BY Genre
 
 -- Extension 2
-SELECT directors, films
+SELECT directors.id, directors_name, Title, Genre, Year, Score
 FROM directors
 JOIN films ON directors.id = films.id
