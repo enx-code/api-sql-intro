@@ -13,3 +13,7 @@ INSERT INTO films (Title, Genre, Year, Score) VALUES ('The Matrix Resurrections'
 ('Hell or High Water, Western','Western', 2016, 8),
 ('The Good the Bad and the Ugly', 'Western', 1966, 9),
 ('Unforgiven', 'Western', 1992, 7)
+
+
+-- insert row for extension 2
+INSERT INTO directors (directors_name) VALUES ('Tom'), ('Eva'), ('Bat'), ('Egy'), ('Muji')

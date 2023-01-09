@@ -16,3 +16,9 @@ SELECT * FROM films WHERE title LIKE 'Matrix%'
 -- extension 1
 SELECT AVG(Score) FROM films
 Select COUNT(*) FROM films
+SELECT Genre, AVG(score) FROM films GROUP BY Genre
+
+-- Extension 2
+SELECT directors, films
+FROM directors
+JOIN films ON directors.id = films.id
